@@ -27,8 +27,6 @@ xhttp.onreadystatechange = function () {
 }
 
 chrome.omnibox.onInputEntered.addListener(function (e) {
-    console.log('https://www.reddit.com/subreddits/search.json?q=' + e);
-
     xhttp.open('GET', 'https://www.reddit.com/subreddits/search.json?q=' + e, true);
     xhttp.send();
 
