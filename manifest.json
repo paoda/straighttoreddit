@@ -8,5 +8,10 @@
     "background": {
         "persistent": false,
         "scripts": ["bg.js"]
+    },
+    "icons": {
+        "16": "icon/1.0/16x16.png",
+        "48": "icon/1.0/48x48.png",
+        "128": "icon/1.0/128x128.png"
     }
 }
